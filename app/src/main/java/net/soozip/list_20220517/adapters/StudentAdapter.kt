@@ -31,15 +31,10 @@ class StudentAdapter(
         val txtAge = row.findViewById<TextView>(R.id.txtAge)
         val txtAddress = row.findViewById<TextView>(R.id.txtAddress)
 
-
         //실제 연결
         txtName.text = data.name
         txtAge.text = "${2022-data.birthYear+1}세"
         txtAddress.text = data.address
-
-
-
-
 
         //만들어진 row의 그림이 리스트 뷰에 뿌려짐.
 
